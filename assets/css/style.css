@@ -1,0 +1,28 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.body > * {
+    box-sizing: border-box;
+}
+
+#ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.75);
+
+    position: fixed;
+    object-fit: cover;
+
+
+
+}
+
+#ball > img {
+    width: inherit;
+    height: inherit;
+}
